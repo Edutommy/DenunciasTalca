@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/item_denuncia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/item_estado"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/item_denuncia_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:layout_marginLeft="20px"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:layout_toRightOf="@id/item_estado"/>
+
+    <TextView
+        android:id="@+id/item_denuncia_direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Direccion"
+        android:layout_marginLeft="20px"
+        android:textColor="#FFF"
+        android:layout_below="@id/item_denuncia_title"
+        android:layout_toRightOf="@id/item_estado"
+        android:textSize="12dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/item_denuncia_direccion"
+        android:background="#FFB842"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

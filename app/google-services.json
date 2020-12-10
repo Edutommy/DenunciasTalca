@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1080826043161",
+    "firebase_url": "https://denunciasapp-618e4.firebaseio.com",
+    "project_id": "denunciasapp-618e4",
+    "storage_bucket": "denunciasapp-618e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080826043161:android:0e148eb6533b3ec49d0388",
+        "android_client_info": {
+          "package_name": "com.villalobos.appdenunciasproyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080826043161-1nfi6iv9ddbrmb91mhcism0tfvpoorqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLQd87fKdfs3zz0xSTjV1XM63iJL5slSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080826043161-1nfi6iv9ddbrmb91mhcism0tfvpoorqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
